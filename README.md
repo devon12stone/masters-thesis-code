@@ -9,4 +9,4 @@ There are two data sources used in the data-processing-functions-for-thesis note
 
 The data-processing-functions-for-thesis notebook then creates the final_imputed_dataset and final_model_data csv files used in the model-training notebook. 
 
-It is key to note that although the input data files are contained in this repo, both notebook were developed so that they run in Google Collaboratory. Both input files and both created files are read in from the user's Google Drive within the respective notebooks. 
+It is key to note that although the input data files are contained in this repo, both notebooks were developed so that they run in Google Collaboratory. Both input files and both created files are read in from the user's Google Drive within the respective notebooks. The final_model_data is seperated into train and testing data within the model-training notebook. 
